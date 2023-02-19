@@ -4,9 +4,9 @@
 
 Checkout https://bananominer.com/ for instructions to setup your folding address.
 
-When you are ready, get your passkey [here](https://apps.foldingathome.org/getpasskey)
+When you are ready, get your passkey [here](https://apps.foldingathome.org/getpasskey).
 
-Copy the provided `.env.schema` template into a `.env` file and substiture your own values.
+Copy the provided `.env.schema` template into a `.env` file and substitute your own values.
 
 ### Deployment
 
