@@ -25,5 +25,5 @@ sudo mkdir /etc/fahclient && \
 EOF
   echo "fahclient       fahclient/autostart     boolean true" | sudo debconf-set-selections && \
   sudo apt install -y wget htop && \
-  wget https://download.foldingathome.org/releases/public/release/fahclient/debian-testing-64bit/v7.4/fahclient_7.4.4_amd64.deb && \
-  DEBIAN_FRONTEND=noninteractive sudo dpkg -i fahclient_7.4.4_amd64.deb
+  wget https://download.foldingathome.org/releases/public/release/fahclient/debian-stable-64bit/v7.6/fahclient_7.6.21_amd64.deb && \
+  DEBIAN_FRONTEND=noninteractive sudo dpkg -i fahclient_7.6.21_amd64.deb
